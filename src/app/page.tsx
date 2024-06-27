@@ -21,12 +21,12 @@ export default function Home() {
               <CardHeader className="space-y-4">
                 <CardTitle>{blog.title}</CardTitle>
                 <CardDescription className="flex justify-center gap-4">
-                  <p>
+                  <span className="">
                     {blog.creationDate} 
-                  </p>
-                  <p>
+                  </span>
+                  <span className="">
                     {blog.readingTime}
-                  </p>
+                  </span>
                 </CardDescription>
               </CardHeader>
               <CardContent>
